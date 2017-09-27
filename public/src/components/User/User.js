@@ -9,9 +9,9 @@ function User({ user }) {
   return (
     <div id="User__parent">
       <UserIcon id="User__icon" />
-      <span> { user || 'Guest' } </span>
+      <span> {user || 'Guest'} </span>
     </div>
   )
 }
 
-export default connect( state => state )( User );
+export default connect(state => state)(User);
